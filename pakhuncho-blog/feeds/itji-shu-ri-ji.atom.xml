@@ -13,8 +13,10 @@
 &lt;hr&gt;
 &lt;h2&gt;🛠️ &lt;strong&gt;採用した技術たち&lt;/strong&gt;&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;&lt;a href="https://getpelican.com/"&gt;Pelican 4.11.0&lt;/a&gt;&lt;/strong&gt; - MarkdownからHTMLを生成してくれる静的サイトジェネレーター。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="https://getpelican.com/"&gt;Pelican 4.11.0&lt;/a&gt;&lt;/strong&gt; - MarkdownからHTMLを生成してくれる静的サイトジェネレーター。&lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;テーマ:&lt;/strong&gt; &lt;a href="https://github.com/22decembre/dev-random3.git"&gt;dev-random3&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Python 3.10.7&lt;/strong&gt; - Pelican を動かすためのエンジン。&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Google Analytics&lt;/strong&gt; - ウェブサイトのアクセスを分析するツール。&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;&lt;a href="https://docs.github.com/ja/pages/getting-started-with-github-pages/about-github-pages"&gt;GitHub Pages&lt;/a&gt;&lt;/strong&gt; - 生成したブログを無料でホスティング。&lt;/li&gt;
@@ -54,8 +56,10 @@ git&lt;span class="w"&gt; &lt;/span&gt;clone&lt;span class="w"&gt; &lt;/span&gt;
 &lt;p&gt;GitHub Pagesを使うことで、&lt;strong&gt;サーバー不要＆無料&lt;/strong&gt;でブログを公開できます。&lt;/p&gt;
 &lt;h3&gt;🚀 &lt;strong&gt;手順&lt;/strong&gt;&lt;/h3&gt;
 &lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;GitHubでリポジトリを作成:&lt;/strong&gt; &lt;code&gt;username.github.io&lt;/code&gt; という名前で新規リポジトリを作成します。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;GitHubでリポジトリを作成:&lt;/strong&gt; &lt;code&gt;username.github.io&lt;/code&gt; という名前で新規リポジトリを作成します。&lt;ul&gt;
 &lt;li&gt;&lt;code&gt;username&lt;/code&gt;は自分のGitHubアカウント名&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;ファイルをプッシュ:&lt;/strong&gt; 生成したHTMLファイルを &lt;code&gt;gh-pages&lt;/code&gt; ブランチにプッシュします。&lt;/li&gt;
 &lt;/ol&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="nb"&gt;cd&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;output
