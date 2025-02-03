@@ -16,9 +16,10 @@
 &lt;li&gt;&lt;strong&gt;&lt;a href="https://getpelican.com/"&gt;Pelican 4.11.0&lt;/a&gt;&lt;/strong&gt; - MarkdownからHTMLを生成してくれる静的サイトジェネレーター。&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;テーマ:&lt;/strong&gt; &lt;a href="https://github.com/22decembre/dev-random3.git"&gt;dev-random3&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Python 3.10.7&lt;/strong&gt; - Pelican を動かすためのエンジン。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Google Analytics&lt;/strong&gt; - ウェブサイトのアクセスを分析するツール。&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;&lt;a href="https://docs.github.com/ja/pages/getting-started-with-github-pages/about-github-pages"&gt;GitHub Pages&lt;/a&gt;&lt;/strong&gt; - 生成したブログを無料でホスティング。&lt;/li&gt;
-&lt;li&gt;Git - GitHubに生成したブログファイルをアップロード。&lt;/li&gt;
-&lt;li&gt;VSCode - 記事の編集と記事の公開操作。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Git&lt;/strong&gt; - GitHubに生成したブログファイルをアップロード。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;VSCode&lt;/strong&gt; - 記事の編集と記事の公開操作。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;この3つの組み合わせで、シンプルかつ強力なブログ環境が完成しました！&lt;/p&gt;
 &lt;hr&gt;
