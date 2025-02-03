@@ -50,17 +50,41 @@
             キーワード:  #<a href="./tag/python.html">Python</a> #<a href="./tag/pelican.html">Pelican</a> #<a href="./tag/github.html">GitHub</a>        </div>
       </header>
       <div class="post-content"> 
-        <p><img alt="" src="./thumbnails/rabbit_thumb.jpg"></p>
+        <p><img alt="" src="./thumbnails/pelican.jpg"></p>
 <h1>ブログ作成の経緯</h1>
-<h1>利用技術</h1>
 <ul>
-<li><a href="https://getpelican.com/">Pelican</a></li>
-<li>github.io</li>
+<li>サーバーを構築せずに、無料でブログを用意したい。</li>
+<li>記事はmarkdownで作成したい。</li>
+</ul>
+<p>記事の見た目よりも素早く記事を書いてサクッと公開するためにこの方法を採用しました。</p>
+<p>普段からメモはほぼmarkdownで書いているので、その勢いで記事を書きたいと思ったからです。</p>
+<p>それで採用した技術は以下のもの。</p>
+<ul>
+<li><a href="https://getpelican.com/">Pelican 4.11.0</a><ul>
+<li>テーマ: <a href="https://github.com/22decembre/dev-random3.git">dev-random3</a></li>
+</ul>
+</li>
+<li>Python 3.10.7 *Pelicanを動かすため</li>
+<li><a href="https://docs.github.com/ja/pages/getting-started-with-github-pages/about-github-pages">github.io</a></li>
 </ul>
 <h3>Pelican</h3>
+<p>markdownで記事を書くと、記事のhtmlファイルを生成してくれるライブラリです。</p>
+<p>テーマは<a href="https://github.com/getpelican/pelican-themes">https://github.com/getpelican/pelican-themes</a>から選抜しました。</p>
+<p>選んだのは<a href="https://github.com/22decembre/dev-random3.git">dev-random3</a>。</p>
+<p><code>themes</code>フォルダでクローンして、<code>pelicanconf.py</code>で指定することでブログの見た目が変わります。</p>
+<div class="highlight"><pre><span></span><code><span class="n">THEME</span> <span class="o">=</span> <span class="s1">&#39;themes/dev-random3&#39;</span>
+</code></pre></div>
+
+<p>以下のコマンドを実行することで、markdownからブログのファイルが生成されます。</p>
+<div class="highlight"><pre><span></span><code><span class="go">pelican content</span>
+</code></pre></div>
+
+<p>あとは、githubに入れるだけで公開できます！</p>
 <h3>github.io</h3>
-<p>githubのPages機能を使って、生成したブログのファイルをWeb公開します。
-githubの<code>username.github.io</code>リポジトリにプッシュすることで公開できます。</p>
+<p>githubのPages機能を使って、生成したブログのファイルをWeb公開します。</p>
+<p>githubの<code>username.github.io</code>リポジトリにプッシュすることで公開できます。</p>
+<p>Sourceを<code>pakhuncho-blog</code>に設定しました。</p>
+<p><code>gh-pages</code>ブランチが公開用ブランチです。</p>
       </div>
       <footer class="post-footer">
         <div class="meta">
@@ -121,9 +145,9 @@ githubの<code>username.github.io</code>リポジトリにプッシュするこ�
 <nav class="widget">
   <h3>Tags</h3>
     <ul class="tagcloud">
-        <li class="tag-[<pelican.contents.Article object at 0x000001A947C39870>]"><a href="/tag/Python.html">Python</a></li>
-        <li class="tag-[<pelican.contents.Article object at 0x000001A947C39870>]"><a href="/tag/Pelican.html">Pelican</a></li>
-        <li class="tag-[<pelican.contents.Article object at 0x000001A947C39870>]"><a href="/tag/GitHub.html">GitHub</a></li>
+        <li class="tag-[<pelican.contents.Article object at 0x0000022A850070D0>]"><a href="/tag/Python.html">Python</a></li>
+        <li class="tag-[<pelican.contents.Article object at 0x0000022A850070D0>]"><a href="/tag/Pelican.html">Pelican</a></li>
+        <li class="tag-[<pelican.contents.Article object at 0x0000022A850070D0>]"><a href="/tag/GitHub.html">GitHub</a></li>
     </ul>
 </nav>       
        <!--</nav>-->
