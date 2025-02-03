@@ -51,40 +51,84 @@
       </header>
       <div class="post-content"> 
         <p><img alt="" src="./thumbnails/pelican.jpg"></p>
-<h1>ブログ作成の経緯</h1>
+<h1>🚀 ブログ作成の経緯</h1>
+<p>こんにちは！この記事では、私がどのようにしてこのブログを作成したのか、その背景と技術的なポイントをご紹介します。</p>
+<hr>
+<h2>✨ <strong>なぜこの方法を選んだのか？</strong></h2>
 <ul>
-<li>サーバーを構築せずに、無料でブログを用意したい。</li>
-<li>記事はmarkdownで作成したい。</li>
+<li><strong>サーバー構築の手間をかけずに、無料でブログを作りたい！</strong></li>
+<li><strong>記事はシンプルに、普段使っているMarkdownでサクサク書きたい！</strong></li>
 </ul>
-<p>記事の見た目よりも素早く記事を書いてサクッと公開するためにこの方法を採用しました。</p>
-<p>普段からメモはほぼmarkdownで書いているので、その勢いで記事を書きたいと思ったからです。</p>
-<p>それで採用した技術は以下のもの。</p>
+<p>記事のデザインや装飾に時間をかけるよりも、とにかく「<strong>素早く書いて、すぐ公開する</strong>」ことを目指しました。普段のメモもMarkdownで書いているので、その流れのまま記事を書けるのがとても快適です。</p>
+<hr>
+<h2>🛠️ <strong>採用した技術たち</strong></h2>
 <ul>
-<li><a href="https://getpelican.com/">Pelican 4.11.0</a><ul>
-<li>テーマ: <a href="https://github.com/22decembre/dev-random3.git">dev-random3</a></li>
+<li><strong><a href="https://getpelican.com/">Pelican 4.11.0</a></strong> - MarkdownからHTMLを生成してくれる静的サイトジェネレーター。</li>
+<li><strong>テーマ:</strong> <a href="https://github.com/22decembre/dev-random3.git">dev-random3</a></li>
+<li><strong>Python 3.10.7</strong> - Pelican を動かすためのエンジン。</li>
+<li><strong><a href="https://docs.github.com/ja/pages/getting-started-with-github-pages/about-github-pages">GitHub Pages</a></strong> - 生成したブログを無料でホスティング。</li>
 </ul>
-</li>
-<li>Python 3.10.7 *Pelicanを動かすため</li>
-<li><a href="https://docs.github.com/ja/pages/getting-started-with-github-pages/about-github-pages">github.io</a></li>
-</ul>
-<h3>Pelican</h3>
-<p>markdownで記事を書くと、記事のhtmlファイルを生成してくれるライブラリです。</p>
-<p>テーマは<a href="https://github.com/getpelican/pelican-themes">https://github.com/getpelican/pelican-themes</a>から選抜しました。</p>
-<p>選んだのは<a href="https://github.com/22decembre/dev-random3.git">dev-random3</a>。</p>
-<p><code>themes</code>フォルダでクローンして、<code>pelicanconf.py</code>で指定することでブログの見た目が変わります。</p>
+<p>この3つの組み合わせで、シンプルかつ強力なブログ環境が完成しました！</p>
+<hr>
+<h2>📝 <strong>Pelican って何？</strong></h2>
+<p>Pelicanは、<strong>MarkdownファイルからHTMLを自動生成してくれる便利なライブラリ</strong>です。難しい設定は不要で、簡単なコマンドだけで記事をブログとして公開できます。</p>
+<h3>🎨 <strong>テーマのカスタマイズ</strong></h3>
+<p>ブログの見た目を変えるのも簡単！</p>
+<ol>
+<li><strong>テーマの入手:</strong> <a href="https://github.com/getpelican/pelican-themes">公式テーマギャラリー</a> から好きなテーマを選びます。</li>
+<li><strong>テーマの配置:</strong> <code>themes</code> フォルダ内にクローンします。</li>
+</ol>
+<div class="highlight"><pre><span></span><code><span class="nb">cd</span><span class="w"> </span>themes
+git<span class="w"> </span>clone<span class="w"> </span>https://github.com/22decembre/dev-random3.git
+</code></pre></div>
+
+<ol>
+<li><strong><code>pelicanconf.py</code> にテーマを指定:</strong></li>
+</ol>
 <div class="highlight"><pre><span></span><code><span class="n">THEME</span> <span class="o">=</span> <span class="s1">&#39;themes/dev-random3&#39;</span>
 </code></pre></div>
 
-<p>以下のコマンドを実行することで、markdownからブログのファイルが生成されます。</p>
-<div class="highlight"><pre><span></span><code><span class="go">pelican content</span>
+<p>これだけで、ブログの見た目がガラッと変わります！</p>
+<h3>⚡ <strong>記事の生成</strong></h3>
+<p>Markdownファイルを書いたら、以下のコマンドでHTMLを生成します。</p>
+<div class="highlight"><pre><span></span><code>pelican<span class="w"> </span>content
 </code></pre></div>
 
-<p>あとは、githubに入れるだけで公開できます！</p>
-<h3>github.io</h3>
-<p>githubのPages機能を使って、生成したブログのファイルをWeb公開します。</p>
-<p>githubの<code>username.github.io</code>リポジトリにプッシュすることで公開できます。</p>
-<p>Sourceを<code>pakhuncho-blog</code>に設定しました。</p>
-<p><code>gh-pages</code>ブランチが公開用ブランチです。</p>
+<p>これで <code>output</code> フォルダに静的なHTMLファイルが生成されます。あとはこれをGitHubにアップロードするだけ！</p>
+<hr>
+<h2>🌐 <strong>GitHub Pages での公開</strong></h2>
+<p>GitHub Pagesを使うことで、<strong>サーバー不要＆無料</strong>でブログを公開できます。</p>
+<h3>🚀 <strong>手順</strong></h3>
+<ol>
+<li><strong>GitHubでリポジトリを作成:</strong> <code>username.github.io</code> という名前で新規リポジトリを作成します。</li>
+<li><strong>ファイルをプッシュ:</strong> 生成したHTMLファイルを <code>gh-pages</code> ブランチにプッシュします。</li>
+</ol>
+<div class="highlight"><pre><span></span><code><span class="nb">cd</span><span class="w"> </span>output
+git<span class="w"> </span>init
+git<span class="w"> </span>remote<span class="w"> </span>add<span class="w"> </span>origin<span class="w"> </span>https://github.com/username/pakhuncho-blog.git
+git<span class="w"> </span>add<span class="w"> </span>.
+git<span class="w"> </span>commit<span class="w"> </span>-m<span class="w"> </span><span class="s2">&quot;Initial blog deployment&quot;</span>
+git<span class="w"> </span>branch<span class="w"> </span>-M<span class="w"> </span>gh-pages
+git<span class="w"> </span>push<span class="w"> </span>-u<span class="w"> </span>origin<span class="w"> </span>gh-pages
+</code></pre></div>
+
+<ol>
+<li><strong>GitHub Pagesの設定:</strong></li>
+<li>GitHubの「Settings」→「Pages」へ移動。</li>
+<li><strong>Source</strong> を <code>gh-pages</code> ブランチに設定。</li>
+</ol>
+<p>これで、以下のURLでブログが公開されます。</p>
+<div class="highlight"><pre><span></span><code>https://username.github.io/pakhuncho-blog/
+</code></pre></div>
+
+<hr>
+<h2>🎯 <strong>まとめ</strong></h2>
+<ul>
+<li>Markdownで素早く記事を書く</li>
+<li>Pelicanで簡単にHTMLを生成</li>
+<li>GitHub Pagesで無料公開</li>
+</ul>
+<p>このシンプルな流れで、誰でもすぐに自分のブログを持つことができます！</p>
       </div>
       <footer class="post-footer">
         <div class="meta">
@@ -145,9 +189,9 @@
 <nav class="widget">
   <h3>Tags</h3>
     <ul class="tagcloud">
-        <li class="tag-[<pelican.contents.Article object at 0x000001AFC803F190>]"><a href="/tag/Python.html">Python</a></li>
-        <li class="tag-[<pelican.contents.Article object at 0x000001AFC803F190>]"><a href="/tag/Pelican.html">Pelican</a></li>
-        <li class="tag-[<pelican.contents.Article object at 0x000001AFC803F190>]"><a href="/tag/GitHub.html">GitHub</a></li>
+        <li class="tag-[<pelican.contents.Article object at 0x000002412250AE00>]"><a href="/tag/Python.html">Python</a></li>
+        <li class="tag-[<pelican.contents.Article object at 0x000002412250AE00>]"><a href="/tag/Pelican.html">Pelican</a></li>
+        <li class="tag-[<pelican.contents.Article object at 0x000002412250AE00>]"><a href="/tag/GitHub.html">GitHub</a></li>
     </ul>
 </nav>       
        <!--</nav>-->
