@@ -18,6 +18,13 @@
     <meta name="viewport" content="initial-scale=1.0, width=device-width, user-scalable=no" />
 
 
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-BY4TDW1KKW"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-BY4TDW1KKW');
+    </script>
     
 
     <meta name="author"   content="pakhuncho" />
@@ -80,6 +87,37 @@
 <hr>
 <h2>📝 <strong>Pelican って何？</strong></h2>
 <p>Pelicanは、<strong>MarkdownファイルからHTMLを自動生成してくれる便利なライブラリ</strong>です。難しい設定は不要で、簡単なコマンドだけで記事をブログとして公開できます。</p>
+<h3>📦 <strong>インストール</strong></h3>
+<p>まず、Pythonの仮想環境を作成します。</p>
+<div class="highlight"><pre><span></span><code>python<span class="w"> </span>-m<span class="w"> </span>venv<span class="w"> </span>venv
+.<span class="se">\v</span>env<span class="se">\S</span>cripts<span class="se">\a</span>ctivate<span class="w">  </span><span class="c1"># Windowsの場合</span>
+<span class="nb">source</span><span class="w"> </span>venv/bin/activate<span class="w">  </span><span class="c1"># macOS/Linuxの場合</span>
+</code></pre></div>
+
+<p>次に、PelicanとMarkdownサポートをインストールします。</p>
+<div class="highlight"><pre><span></span><code>python<span class="w"> </span>-m<span class="w"> </span>pip<span class="w"> </span>install<span class="w"> </span><span class="s2">&quot;pelican[markdown]&quot;</span>
+</code></pre></div>
+
+<p>または、<strong>requirements.txt</strong>ファイルを作成し、以下の内容を追加します。</p>
+<div class="highlight"><pre><span></span><code><span class="n">pelican</span><span class="o">[</span><span class="n">markdown</span><span class="o">]</span>
+</code></pre></div>
+
+<p>そして、以下のコマンドでインストールします。</p>
+<div class="highlight"><pre><span></span><code>pip<span class="w"> </span>install<span class="w"> </span>-r<span class="w"> </span>requirements.txt
+</code></pre></div>
+
+<h3>⚡ <strong>記事の生成</strong></h3>
+<p>Markdownファイルを書いたら、以下のコマンドでHTMLを生成します。</p>
+<div class="highlight"><pre><span></span><code>pelican<span class="w"> </span>content
+</code></pre></div>
+
+<p>これで <code>output</code> フォルダに静的なHTMLファイルが生成されます。あとはこれをGitHubにアップロードするだけ！</p>
+<h3>🌐 <strong>ローカルサーバーでのプレビュー</strong></h3>
+<p>生成されたHTMLをローカルで確認するために、以下のコマンドを使用してローカルサーバーを起動します。</p>
+<div class="highlight"><pre><span></span><code>pelican<span class="w"> </span>--listen
+</code></pre></div>
+
+<p>これで、ブラウザで <code>http://localhost:8000</code> にアクセスすると、生成されたブログをプレビューできます。</p>
 <h3>🎨 <strong>テーマのカスタマイズ</strong></h3>
 <p>ブログの見た目を変えるのも簡単！</p>
 <ol>
@@ -98,12 +136,6 @@ git<span class="w"> </span>clone<span class="w"> </span>https://github.com/22dec
 
 <p>これだけで、ブログの見た目がガラッと変わります！</p>
 <p>ただし、所々フランス語だったり文字も見づらかったので<strong>templates</strong>内にあるCSSやテンプレートのHTMLを少し編集して見た目をカスタマイズしました。</p>
-<h3>⚡ <strong>記事の生成</strong></h3>
-<p>Markdownファイルを書いたら、以下のコマンドでHTMLを生成します。</p>
-<div class="highlight"><pre><span></span><code>pelican<span class="w"> </span>content
-</code></pre></div>
-
-<p>これで <code>output</code> フォルダに静的なHTMLファイルが生成されます。あとはこれをGitHubにアップロードするだけ！</p>
 <hr>
 <h2>🌐 <strong>GitHub Pages での公開</strong></h2>
 <p>GitHub Pagesを使うことで、<strong>サーバー不要＆無料</strong>でブログを公開できます。</p>
@@ -201,10 +233,10 @@ git<span class="w"> </span>push<span class="w"> </span>-u<span class="w"> </span
 <nav class="widget">
   <h3>Tags</h3>
     <ul class="tagcloud">
-        <li class="tag-[<pelican.contents.Article object at 0x00000279A496BF10>]"><a href="/tag/IT基礎.html">IT基礎</a></li>
-        <li class="tag-[<pelican.contents.Article object at 0x00000279A49FFC70>]"><a href="/tag/Python.html">Python</a></li>
-        <li class="tag-[<pelican.contents.Article object at 0x00000279A49FFC70>]"><a href="/tag/Pelican.html">Pelican</a></li>
-        <li class="tag-[<pelican.contents.Article object at 0x00000279A49FFC70>]"><a href="/tag/GitHub.html">GitHub</a></li>
+        <li class="tag-[<pelican.contents.Article object at 0x000002B5F9FAFFD0>]"><a href="/tag/IT基礎.html">IT基礎</a></li>
+        <li class="tag-[<pelican.contents.Article object at 0x000002B5F9FF6140>]"><a href="/tag/Python.html">Python</a></li>
+        <li class="tag-[<pelican.contents.Article object at 0x000002B5F9FF6140>]"><a href="/tag/Pelican.html">Pelican</a></li>
+        <li class="tag-[<pelican.contents.Article object at 0x000002B5F9FF6140>]"><a href="/tag/GitHub.html">GitHub</a></li>
     </ul>
 </nav>       
        <!--</nav>-->
