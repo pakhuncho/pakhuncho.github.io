@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>ぱっくんちょブログ - AI</title><link href="https://pakhuncho.github.io/pakhuncho-blog/" rel="alternate"></link><link href="https://pakhuncho.github.io/pakhuncho-blog/feeds/ai.atom.xml" rel="self"></link><id>https://pakhuncho.github.io/pakhuncho-blog/</id><updated>2025-02-05T18:00:00+09:00</updated><entry><title>ChatGPTでひとりツイッター作ってみた</title><link href="https://pakhuncho.github.io/pakhuncho-blog/along-twitter.html" rel="alternate"></link><published>2025-01-29T00:00:00+09:00</published><updated>2025-02-05T18:00:00+09:00</updated><author><name>pakhuncho</name></author><id>tag:pakhuncho.github.io,2025-01-29:/pakhuncho-blog/along-twitter.html</id><summary type="html">&lt;p&gt;&lt;img alt="blue_bird" src="https://pakhuncho.github.io/pakhuncho-blog/thumbnails/blue_bird.jpg"&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;img alt="blue_bird" src="https://pakhuncho.github.io/pakhuncho-blog/thumbnails/blue_bird.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;Xで何気なく投稿したことに色んな意見がある状態をAIで作ってみました。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://chatgpt.com/g/g-6799ca6d85a88191ae02291eec8cf28b-hitorituituta"&gt;ChatGPT ひとりツイッター&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;私のような陰キャは一人SNSとして使ってみると面白いよ。&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;ITエンジニアは金になる！
+
+💬 賛成派:
+🟢 「間違いない！需要は右肩上がりだし、スキルがあれば高収入も狙える。」
+🟢 「フリーランスやリモートワークの選択肢も広がってるし、働き方の自由度も高い！」
+🟢 「未経験でも学べばチャンスがあるし、年齢問わずキャリアチェンジできるのが魅力。」
+
+💬 反対派:
+🔴 「確かに金にはなるけど、激務な仕事も多いし、常に勉強が必要で大変だよ。」
+🔴 「日本のIT業界はまだ下請け構造が強くて、エンジニアの待遇が悪い会社も少なくない。」
+🔴 「プログラミングができるだけじゃダメで、結局ビジネススキルも求められるから甘くないよ。」
+
+💬 中立・冷静派:
+⚪ 「市場価値は高いけど、スキルの差が収入に直結するから、全員が高収入になれるわけじゃない。」
+⚪ 「海外と比べると日本のエンジニアの給与はまだ低め。グローバルな視点を持つとより稼げるかも。」
+⚪ 「ITエンジニアの中でも分野によって格差がある。Web系と組み込み系、AI・データサイエンス系では年収が全然違う。」
+
+💬 別視点:
+🟡 「エンジニアとして働くだけじゃなくて、スキルを活かして起業すればもっと稼げる可能性もある！」
+🟡 「日本ではエンジニアよりPMやコンサルの方が高収入なことも多い。スキルだけじゃなくマネジメントも重要。」
+🟡 「将来的にはAIがコードを書く時代が来るかもしれないから、エンジニアも単純なコーディングだけじゃなく、戦略的なスキルを磨く必要がありそう。」
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;返答に対してさらにツッコミを入れてみるのもあり！&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt; 「確かに金にはなるけど、激務な仕事も多いし、常に勉強が必要で大変だよ。」
+それはどの業界もそうでしょう。
+
+💬 賛成派:
+🟢 「その通り！どんな業界でも成功するには努力が必要だし、勉強しないと成長できないよね。」
+🟢 「むしろITはリモートワークや副業もしやすくて、働き方の選択肢が広いから恵まれてる方では？」
+🟢 「医者や弁護士なんて一生勉強し続けないといけないし、それに比べればITはまだ自由度が高い！」
+
+💬 反対派:
+🔴 「いや、IT業界は特に変化が激しいから、他業界よりも勉強量が多いのは事実だよ。」
+🔴 「他の業界は経験がものを言うけど、ITは技術が陳腐化するスピードが速くて、学ばないとすぐに置いていかれる。」
+🔴 「労働環境がホワイトな業界と比べると、ITはブラックな案件もまだ多いから、大変なのは間違いない。」
+
+💬 中立・冷静派:
+⚪ 「確かにどの業界も大変だけど、ITは特にスキルアップのスピードが求められる業界かも。」
+⚪ 「業界によって大変さの種類が違うから、一概に比較するのは難しいね。」
+⚪ 「IT業界は柔軟な働き方ができる分、自己管理が求められる。自由と責任はセットかな。」
+
+💬 別視点:
+🟡 「ITは勉強すればするほど収入につながる可能性があるから、努力が報われやすいのは魅力！」
+🟡 「業界全体で見ると、労働環境の差が激しい。ホワイトな企業に入れれば天国、ブラックなら地獄。」
+🟡 「むしろ勉強し続けることが苦じゃない人にとっては、IT業界は天職になるかもね。」
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content><category term="AI"></category><category term="ChatGPT"></category></entry></feed>
