@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+        <meta charset="utf-8" />
+    <title>2進数？16進数？バイナリ、オクタル、ヘキサデシマルの覚え方 — ぱっくんちょブログ</title>
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="./theme/css/skeleton.css" />
+    <link rel="stylesheet" type="text/css" href="./theme/css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap" rel="stylesheet">
+    
+    <link rel="alternate" type="application/atom+xml"
+                           title="ぱっくんちょブログ — Flux Atom"
+                           href="./" /> 
+    
+    <!--[if lte IE 8]><script src="./theme/js/html5shiv.js"></script><![endif]-->
+    <meta name="viewport" content="initial-scale=1.0, width=device-width, user-scalable=no" />
+
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-BY4TDW1KKW"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-BY4TDW1KKW');
+    </script>
+    
+
+    <meta name="author"   content="pakhuncho" />
+    <meta name="keywords" content="IT基礎" />
+  </head>
+  <body>
+    <div class="page">
+      <header class="page-head">
+      
+        <h1>
+          <a href="./index.html">ぱっくんちょブログ</a>
+        </h1>
+      </header>
+
+      <div class="page-content">
+     <article class="post content">
+      <header class="post-header">
+        <time datetime="2025-02-05T00:00:00+09:00" pubdate="pubdate">
+          水 05 2月 2025
+        </time>
+        <h1>
+          <a rel="bookmark"
+             href="./binary.html"
+             title="Lien permanent vers «2進数？16進数？バイナリ、オクタル、ヘキサデシマルの覚え方»">
+             2進数？16進数？バイナリ、オクタル、ヘキサデシマルの覚え方
+          </a>
+        </h1>
+        <div class="meta">
+            カテゴリー「<a href="./category/itji-shu.html">IT技術</a>」 
+            著者 <a href="./author/pakhuncho.html">pakhuncho</a>
+<br />
+            キーワード:  #<a href="./tag/itji-chu.html">IT基礎</a>        </div>
+      </header>
+      <div class="post-content"> 
+        <p><img alt="binary" src="./thumbnails/binary.jpg"></p>
+<p>プログラミングを学び始めると、避けて通れないのが <strong>2進数（バイナリ）</strong>、<strong>8進数（オクタル）</strong>、<strong>16進数（ヘキサデシマル）</strong> です。でも大丈夫！今回はこれらの進数を <strong>簡単に、楽しく覚える方法</strong> を紹介します。</p>
+<hr>
+<h2>🔢 <strong>1. 2進数（Binary）</strong></h2>
+<h3>✅ <strong>基本</strong></h3>
+<ul>
+<li><strong>プレフィックス:</strong> <code>0b</code></li>
+<li><strong>使う数字:</strong> <strong>0 と 1</strong> だけ</li>
+<li><strong>例:</strong> <code>0b1010</code> = 10進数の <strong>10</strong></li>
+</ul>
+<h3>🧠 <strong>覚え方のコツ</strong></h3>
+<h4>✔️ <strong>語源で覚える</strong></h4>
+<ul>
+<li><strong>Binary（バイナリ）</strong> の <strong>"bi-"</strong> は <strong>「2」</strong> という意味。</li>
+<li><strong>例:</strong><ul>
+<li><strong>bicycle（バイシクル）</strong> = <strong>2つの車輪</strong> → 自転車</li>
+<li><strong>biweekly（バイウィークリー）</strong> = <strong>2週間ごと</strong></li>
+</ul>
+</li>
+</ul>
+<h4>✔️ <strong>イメージで覚える</strong></h4>
+<ul>
+<li><strong>「0 と 1 の世界」</strong> を想像しよう。</li>
+<li><strong>電気のスイッチ = オン（1）/オフ（0）</strong> → これがバイナリ！</li>
+</ul>
+<h4>✔️ <strong>フレーズで覚える</strong></h4>
+<ul>
+<li><strong>「Binary = 二者択一」</strong> → 選択肢が2つしかない、シンプルな考え方。</li>
+<li><strong>Yes / No</strong>, <strong>True / False</strong>, <strong>On / Off</strong> → 全部バイナリ的！</li>
+</ul>
+<hr>
+<h2>🐙 <strong>2. 8進数（Octal）</strong></h2>
+<h3>✅ <strong>基本</strong></h3>
+<ul>
+<li><strong>プレフィックス:</strong> <code>0o</code>（Pythonなど）、<code>0</code>（古いC言語）</li>
+<li><strong>使う数字:</strong> <strong>0 ～ 7</strong> だけ</li>
+<li><strong>例:</strong> <code>0o77</code> = 10進数の <strong>63</strong></li>
+</ul>
+<h3>🧠 <strong>覚え方のコツ</strong></h3>
+<h4>✔️ <strong>語源で覚える</strong></h4>
+<ul>
+<li><strong>Octal（オクタル）</strong> の <strong>"Oct-"</strong> は <strong>「8」</strong> という意味。</li>
+<li><strong>例:</strong><ul>
+<li><strong>Octopus（オクトパス）</strong> = <strong>8本の足</strong> → タコ！</li>
+<li><strong>October（オクトーバー）</strong> = 本来は<strong>8番目の月</strong>（古代ローマ暦）</li>
+</ul>
+</li>
+</ul>
+<h4>✔️ <strong>イメージで覚える</strong></h4>
+<ul>
+<li><strong>タコ = 8本足 = 8進数！</strong> と覚えると忘れにくい。</li>
+</ul>
+<h4>✔️ <strong>フレーズで覚える</strong></h4>
+<ul>
+<li><strong>「オクタルはタコの進数！」</strong> → タコ（Octopus）の足が8本 → 8進数</li>
+</ul>
+<hr>
+<h2>🧮 <strong>3. 16進数（Hexadecimal）</strong></h2>
+<h3>✅ <strong>基本</strong></h3>
+<ul>
+<li><strong>プレフィックス:</strong> <code>0x</code></li>
+<li><strong>使う文字:</strong> <strong>0 ～ 9 と A ～ F</strong>（A=10, B=11, C=12, D=13, E=14, F=15）</li>
+<li><strong>例:</strong> <code>0x1F</code> = 10進数の <strong>31</strong></li>
+</ul>
+<h3>🧠 <strong>覚え方のコツ</strong></h3>
+<h4>✔️ <strong>語源で覚える</strong></h4>
+<ul>
+<li><strong>Hexadecimal（ヘキサデシマル）</strong> は…</li>
+<li><strong>"Hexa-"</strong> = <strong>6</strong>（ギリシャ語）  </li>
+<li><strong>"Decimal"</strong> = <strong>10進数</strong><br>
+  → <strong>6 + 10 = 16進数！</strong> という意味。</li>
+</ul>
+<h4>✔️ <strong>イメージで覚える</strong></h4>
+<ul>
+<li><strong>「16進数 = 0 から F までの世界」</strong> を想像しよう。</li>
+<li>0 1 2 3 4 5 6 7 8 9 A B C D E F</li>
+<li>まるで「<strong>秘密の暗号表</strong>」みたい！</li>
+</ul>
+<h4>✔️ <strong>フレーズで覚える</strong></h4>
+<ul>
+<li><strong>「ヘキサは6だけど、16進数！」</strong> → 混乱するけど、逆に記憶に残る！</li>
+</ul>
+<hr>
+<h2>🚀 <strong>まとめ</strong></h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">進数</th>
+<th style="text-align: left;">プレフィックス</th>
+<th style="text-align: left;">使用する数字（文字）</th>
+<th style="text-align: left;">語源・覚え方</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>2進数</strong></td>
+<td style="text-align: left;"><code>0b</code></td>
+<td style="text-align: left;">0, 1</td>
+<td style="text-align: left;"><strong>Binary</strong> = 2つの選択肢</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>8進数</strong></td>
+<td style="text-align: left;"><code>0o</code></td>
+<td style="text-align: left;">0 ～ 7</td>
+<td style="text-align: left;"><strong>Octopus</strong> = タコ = 8本足</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>16進数</strong></td>
+<td style="text-align: left;"><code>0x</code></td>
+<td style="text-align: left;">0 ～ 9, A ～ F</td>
+<td style="text-align: left;"><strong>Hexa（6）+ Decimal（10） = 16</strong></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2>🎯 <strong>覚えやすいゴロ合わせ</strong></h2>
+<ul>
+<li><strong>「バイナリは 0 と 1、タコは 8、ヘキサは A まで！」</strong>  </li>
+<li>または、<strong>「バイ（2）、オク（8）、ヘキサ（16）」</strong> でリズム良く覚えるのもオススメ！</li>
+</ul>
+<p>これで進数の世界もバッチリ！ぜひ覚えてみてくださいね！✨</p>
+      </div>
+      <footer class="post-footer">
+        <div class="meta">
+            カテゴリー「<a href="./category/itji-shu.html">IT技術</a>」 
+            著者 <a href="./author/pakhuncho.html">pakhuncho</a><br />
+            キーワード:  #<a href="./tag/itji-chu.html">IT基礎</a>        </div>
+  <a title="Facebook" href="https://www.facebook.com/sharer.php?u=./binary.html"><img src="./theme/img/fb.png" style="border:0;display: inline-block;vertical-align: middle;" alt="Facebook" />Facebook</a>
+	| <a href="https://x.com/pakhuncho"
+	      data-url="./binary.html"
+	      data-hashtags="IT基礎"><img src="./theme/img/twitter.png" style="border:0;display: inline-block;vertical-align: middle;" alt="Twitter" />Twitter</a>
+        
+      
+      </footer>
+
+    </article>
+      </div>
+
+    <aside class="page-sidebar">
+      <nav class="widget">
+<!--
+        <h3>Site</h3>
+      
+	<a rel="license" href="http://creativecommons.org/licenses/by/4.0/">
+		<img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" />
+	</a>
+  -->
+       </nav>
+     <!-- <ul>
+          <li><a href=".">Accueil</a></li>
+        </ul>-->
+
+<!--	<br />-->
+
+      
+
+      
+<nav class="widget">
+        <h3>Categories</h3>
+        <ul>
+          <li><a href="./category/itji-shu.html">IT技術</a></li>
+          <li><a href="./category/itji-shu-ri-ji.html">IT技術, 日記</a></li>
+        </ul>
+</nav> 
+<nav class="widget">
+  <h3>Social</h3>
+    <ul>
+      <li><a href="https://x.com/pakhuncho">X(twitter)</a></li>
+    </ul>
+</nav>       
+
+       
+<nav class="widget">
+    <h3>Links</h3>
+    <ul>
+          <li><a href="https://pakhuncho.hp.peraichi.com/">フルスタックエンジニアになる! 兎に角実践塾</a></li>
+    </ul>
+</nav> 
+       
+<nav class="widget">
+  <h3>Tags</h3>
+    <ul class="tagcloud">
+        <li class="tag-[<pelican.contents.Article object at 0x000001F5B946EEF0>]"><a href="/tag/IT基礎.html">IT基礎</a></li>
+        <li class="tag-[<pelican.contents.Article object at 0x000001F5B80F2AD0>]"><a href="/tag/Python.html">Python</a></li>
+        <li class="tag-[<pelican.contents.Article object at 0x000001F5B80F2AD0>]"><a href="/tag/Pelican.html">Pelican</a></li>
+        <li class="tag-[<pelican.contents.Article object at 0x000001F5B80F2AD0>]"><a href="/tag/GitHub.html">GitHub</a></li>
+    </ul>
+</nav>       
+       <!--</nav>-->
+    </aside> 
+
+      <footer class="page-footer">
+        <p> © 2024 pakhuncho-blog. All rights reserved.</p>
+      </footer>
+    </div>
+  </body>
+</html>
