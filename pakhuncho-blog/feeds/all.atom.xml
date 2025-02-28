@@ -111,7 +111,7 @@
 &lt;td style="text-align: center;"&gt;★&lt;/td&gt;
 &lt;td&gt;選択行をコメント&lt;/td&gt;
 &lt;td&gt;&lt;code&gt;Ctrl + /&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;プログラムの種類に合わせたコメントにしてくれるのが嬉しい。&lt;br&gt;（pythonなら#、javaなら//）&lt;/td&gt;
+&lt;td&gt;プログラムの種類に合わせたコメントにしてくれるのが嬉しい。&lt;br&gt;（pythonなら#、javaなら//）&lt;br&gt;コメント上に行うとコメントが解除される。&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
