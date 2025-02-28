@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>ぱっくんちょブログ - IT技術</title><link href="https://pakhuncho.github.io/pakhuncho-blog/" rel="alternate"></link><link href="https://pakhuncho.github.io/pakhuncho-blog/feeds/itji-shu.atom.xml" rel="self"></link><id>https://pakhuncho.github.io/pakhuncho-blog/</id><updated>2025-02-05T18:30:00+09:00</updated><entry><title>2進数？16進数？バイナリ、オクタル、ヘキサデシマルの覚え方</title><link href="https://pakhuncho.github.io/pakhuncho-blog/binary.html" rel="alternate"></link><published>2025-02-05T00:00:00+09:00</published><updated>2025-02-05T17:00:00+09:00</updated><author><name>pakhuncho</name></author><id>tag:pakhuncho.github.io,2025-02-05:/pakhuncho-blog/binary.html</id><summary type="html">&lt;p&gt;プログラミングを学び始めると、避けて通れないのが &lt;strong&gt;2進数（バイナリ）&lt;/strong&gt;、&lt;strong&gt;8進数（オクタル）&lt;/strong&gt;、&lt;strong&gt;16進数（ヘキサデシマル）&lt;/strong&gt; です。でも大丈夫！今回はこれらの進数を &lt;strong&gt;簡単に、楽しく覚える方法&lt;/strong&gt; を紹介します。&lt;/p&gt;</summary><content type="html">&lt;p&gt;プログラミングを学び始めると、避けて通れないのが &lt;strong&gt;2進数（バイナリ）&lt;/strong&gt;、&lt;strong&gt;8進数（オクタル）&lt;/strong&gt;、&lt;strong&gt;16進数（ヘキサデシマル）&lt;/strong&gt; です。でも大丈夫！今回はこれらの進数を &lt;strong&gt;簡単に、楽しく覚える方法&lt;/strong&gt; を紹介します。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;🔢 &lt;strong&gt;1. 2進数（Binary）&lt;/strong&gt;&lt;/h2&gt;
+&lt;h3&gt;✅ &lt;strong&gt;基本&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;プレフィックス:&lt;/strong&gt; &lt;code&gt;0b&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;使う数字:&lt;/strong&gt; &lt;strong&gt;0 と 1&lt;/strong&gt; だけ&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;例:&lt;/strong&gt; &lt;code&gt;0b1010&lt;/code&gt; = 10進数の &lt;strong&gt;10&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;🧠 &lt;strong&gt;覚え方のコツ&lt;/strong&gt;&lt;/h3&gt;
+&lt;h4&gt;✔️ &lt;strong&gt;語源で覚える&lt;/strong&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Binary（バイナリ）&lt;/strong&gt; の &lt;strong&gt;"bi-"&lt;/strong&gt; は &lt;strong&gt;「2」&lt;/strong&gt; という意味。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;例:&lt;/strong&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;bicycle（バイシクル）&lt;/strong&gt; = &lt;strong&gt;2つの車輪&lt;/strong&gt; → 自転車&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;biweekly（バイウィークリー）&lt;/strong&gt; = &lt;strong&gt;2週間ごと&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;✔️ &lt;strong&gt;イメージで覚える&lt;/strong&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;「0 と 1 の世界」&lt;/strong&gt; を想像しよう。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;電気のスイッチ = オン（1）/オフ（0）&lt;/strong&gt; → これがバイナリ！&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;✔️ &lt;strong&gt;フレーズで覚える&lt;/strong&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;「Binary = 二者択一」&lt;/strong&gt; → 選択肢が2つしかない、シンプルな考え方。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Yes / No&lt;/strong&gt;, &lt;strong&gt;True / False&lt;/strong&gt;, &lt;strong&gt;On / Off&lt;/strong&gt; → 全部バイナリ的！&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;🐙 &lt;strong&gt;2. 8進数（Octal）&lt;/strong&gt;&lt;/h2&gt;
+&lt;h3&gt;✅ &lt;strong&gt;基本&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;プレフィックス:&lt;/strong&gt; &lt;code&gt;0o&lt;/code&gt;（Pythonなど）、&lt;code&gt;0&lt;/code&gt;（古いC言語）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;使う数字:&lt;/strong&gt; &lt;strong&gt;0 ～ 7&lt;/strong&gt; だけ&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;例:&lt;/strong&gt; &lt;code&gt;0o77&lt;/code&gt; = 10進数の &lt;strong&gt;63&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;🧠 &lt;strong&gt;覚え方のコツ&lt;/strong&gt;&lt;/h3&gt;
+&lt;h4&gt;✔️ &lt;strong&gt;語源で覚える&lt;/strong&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Octal（オクタル）&lt;/strong&gt; の &lt;strong&gt;"Oct-"&lt;/strong&gt; は &lt;strong&gt;「8」&lt;/strong&gt; という意味。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;例:&lt;/strong&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Octopus（オクトパス）&lt;/strong&gt; = &lt;strong&gt;8本の足&lt;/strong&gt; → タコ！&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;October（オクトーバー）&lt;/strong&gt; = 本来は&lt;strong&gt;8番目の月&lt;/strong&gt;（古代ローマ暦）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;✔️ &lt;strong&gt;イメージで覚える&lt;/strong&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;タコ = 8本足 = 8進数！&lt;/strong&gt; と覚えると忘れにくい。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;✔️ &lt;strong&gt;フレーズで覚える&lt;/strong&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;「オクタルはタコの進数！」&lt;/strong&gt; → タコ（Octopus）の足が8本 → 8進数&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;🧮 &lt;strong&gt;3. 16進数（Hexadecimal）&lt;/strong&gt;&lt;/h2&gt;
+&lt;h3&gt;✅ &lt;strong&gt;基本&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;プレフィックス:&lt;/strong&gt; &lt;code&gt;0x&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;使う文字:&lt;/strong&gt; &lt;strong&gt;0 ～ 9 と A ～ F&lt;/strong&gt;（A=10, B=11, C=12, D=13, E=14, F=15）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;例:&lt;/strong&gt; &lt;code&gt;0x1F&lt;/code&gt; = 10進数の &lt;strong&gt;31&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;🧠 &lt;strong&gt;覚え方のコツ&lt;/strong&gt;&lt;/h3&gt;
+&lt;h4&gt;✔️ &lt;strong&gt;語源で覚える&lt;/strong&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Hexadecimal（ヘキサデシマル）&lt;/strong&gt; は…&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;"Hexa-"&lt;/strong&gt; = &lt;strong&gt;6&lt;/strong&gt;（ギリシャ語）  &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;"Decimal"&lt;/strong&gt; = &lt;strong&gt;10進数&lt;/strong&gt;&lt;br&gt;
+  → &lt;strong&gt;6 + 10 = 16進数！&lt;/strong&gt; という意味。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;✔️ &lt;strong&gt;イメージで覚える&lt;/strong&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;「16進数 = 0 から F までの世界」&lt;/strong&gt; を想像しよう。&lt;/li&gt;
+&lt;li&gt;0 1 2 3 4 5 6 7 8 9 A B C D E F&lt;/li&gt;
+&lt;li&gt;まるで「&lt;strong&gt;秘密の暗号表&lt;/strong&gt;」みたい！&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;✔️ &lt;strong&gt;フレーズで覚える&lt;/strong&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;「ヘキサは6だけど、16進数！」&lt;/strong&gt; → 混乱するけど、逆に記憶に残る！&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;🚀 &lt;strong&gt;まとめ&lt;/strong&gt;&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style="text-align: left;"&gt;進数&lt;/th&gt;
+&lt;th style="text-align: left;"&gt;プレフィックス&lt;/th&gt;
+&lt;th style="text-align: left;"&gt;使用する数字（文字）&lt;/th&gt;
+&lt;th style="text-align: left;"&gt;語源・覚え方&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left;"&gt;&lt;strong&gt;2進数&lt;/strong&gt;&lt;/td&gt;
+&lt;td style="text-align: left;"&gt;&lt;code&gt;0b&lt;/code&gt;&lt;/td&gt;
+&lt;td style="text-align: left;"&gt;0, 1&lt;/td&gt;
+&lt;td style="text-align: left;"&gt;&lt;strong&gt;Binary&lt;/strong&gt; = 2つの選択肢&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left;"&gt;&lt;strong&gt;8進数&lt;/strong&gt;&lt;/td&gt;
+&lt;td style="text-align: left;"&gt;&lt;code&gt;0o&lt;/code&gt;&lt;/td&gt;
+&lt;td style="text-align: left;"&gt;0 ～ 7&lt;/td&gt;
+&lt;td style="text-align: left;"&gt;&lt;strong&gt;Octopus&lt;/strong&gt; = タコ = 8本足&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left;"&gt;&lt;strong&gt;16進数&lt;/strong&gt;&lt;/td&gt;
+&lt;td style="text-align: left;"&gt;&lt;code&gt;0x&lt;/code&gt;&lt;/td&gt;
+&lt;td style="text-align: left;"&gt;0 ～ 9, A ～ F&lt;/td&gt;
+&lt;td style="text-align: left;"&gt;&lt;strong&gt;Hexa（6）+ Decimal（10） = 16&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h2&gt;🎯 &lt;strong&gt;覚えやすいゴロ合わせ&lt;/strong&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;「バイナリは 0 と 1、タコは 8、ヘキサは A まで！」&lt;/strong&gt;  &lt;/li&gt;
+&lt;li&gt;または、&lt;strong&gt;「バイ（2）、オク（8）、ヘキサ（16）」&lt;/strong&gt; でリズム良く覚えるのもオススメ！&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;これで進数の世界もバッチリ！ぜひ覚えてみてくださいね！✨&lt;/p&gt;</content><category term="IT技術"></category><category term="IT基礎"></category></entry><entry><title>Pelicanでブログ作成</title><link href="https://pakhuncho.github.io/pakhuncho-blog/making-plican-blog.html" rel="alternate"></link><published>2025-02-03T00:00:00+09:00</published><updated>2025-02-05T18:30:00+09:00</updated><author><name>pakhuncho</name></author><id>tag:pakhuncho.github.io,2025-02-03:/pakhuncho-blog/making-plican-blog.html</id><summary type="html">&lt;p&gt;こんにちは！この記事では、私がどのようにしてこのブログを作成したのか、その背景と技術的なポイントをご紹介します。&lt;/p&gt;</summary><content type="html">&lt;h1&gt;🚀 ブログ作成の経緯&lt;/h1&gt;
+&lt;p&gt;こんにちは！この記事では、私がどのようにしてこのブログを作成したのか、その背景と技術的なポイントをご紹介します。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;✨ &lt;strong&gt;なぜこの方法を選んだのか？&lt;/strong&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;サーバー構築の手間をかけずに、無料でブログを作りたい！&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;記事はシンプルに、普段使っているMarkdownでサクサク書きたい！&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;普段使っているツール（VSCode）だけでブログを更新したい！&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;記事のデザインや装飾に時間をかけるよりも、とにかく「&lt;strong&gt;素早く書いて、すぐ公開する&lt;/strong&gt;」ことを目指しました。普段のメモもMarkdownで書いているので、その流れのまま記事を書けるのがとても快適です。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;🛠️ &lt;strong&gt;採用した技術たち&lt;/strong&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="https://getpelican.com/"&gt;Pelican 4.11.0&lt;/a&gt;&lt;/strong&gt; - MarkdownからHTMLを生成してくれる静的サイトジェネレーター。&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;テーマ:&lt;/strong&gt; &lt;a href="https://github.com/22decembre/dev-random3.git"&gt;dev-random3&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Python 3.10.7&lt;/strong&gt; - Pelican を動かすためのエンジン。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Google Analytics&lt;/strong&gt; - ウェブサイトのアクセスを分析するツール。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="https://docs.github.com/ja/pages/getting-started-with-github-pages/about-github-pages"&gt;GitHub Pages&lt;/a&gt;&lt;/strong&gt; - 生成したブログを無料でホスティング。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Git&lt;/strong&gt; - GitHubに生成したブログファイルをアップロード。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;VSCode&lt;/strong&gt; - 記事の編集と記事の公開操作。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;この3つの組み合わせで、シンプルかつ強力なブログ環境が完成しました！&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;📝 &lt;strong&gt;Pelican って何？&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Pelicanは、&lt;strong&gt;MarkdownファイルからHTMLを自動生成してくれる便利なライブラリ&lt;/strong&gt;です。難しい設定は不要で、簡単なコマンドだけで記事をブログとして公開できます。&lt;/p&gt;
+&lt;h3&gt;📦 &lt;strong&gt;インストール&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;まず、Pythonの仮想環境を作成します。&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;python&lt;span class="w"&gt; &lt;/span&gt;-m&lt;span class="w"&gt; &lt;/span&gt;venv&lt;span class="w"&gt; &lt;/span&gt;venv
+.&lt;span class="se"&gt;\v&lt;/span&gt;env&lt;span class="se"&gt;\S&lt;/span&gt;cripts&lt;span class="se"&gt;\a&lt;/span&gt;ctivate&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="c1"&gt;# Windowsの場合&lt;/span&gt;
+&lt;span class="nb"&gt;source&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;venv/bin/activate&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="c1"&gt;# macOS/Linuxの場合&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;次に、PelicanとMarkdownサポートをインストールします。&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;python&lt;span class="w"&gt; &lt;/span&gt;-m&lt;span class="w"&gt; &lt;/span&gt;pip&lt;span class="w"&gt; &lt;/span&gt;install&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;pelican[markdown]&amp;quot;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;または、&lt;strong&gt;requirements.txt&lt;/strong&gt;ファイルを作成し、以下の内容を追加します。&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="n"&gt;pelican&lt;/span&gt;&lt;span class="o"&gt;[&lt;/span&gt;&lt;span class="n"&gt;markdown&lt;/span&gt;&lt;span class="o"&gt;]&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;そして、以下のコマンドでインストールします。&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;pip&lt;span class="w"&gt; &lt;/span&gt;install&lt;span class="w"&gt; &lt;/span&gt;-r&lt;span class="w"&gt; &lt;/span&gt;requirements.txt
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h3&gt;⚡ &lt;strong&gt;記事の生成&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Markdownファイルを書いたら、以下のコマンドでHTMLを生成します。&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;pelican&lt;span class="w"&gt; &lt;/span&gt;content
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;これで &lt;code&gt;output&lt;/code&gt; フォルダに静的なHTMLファイルが生成されます。あとはこれをGitHubにアップロードするだけ！&lt;/p&gt;
+&lt;h3&gt;🌐 &lt;strong&gt;ローカルサーバーでのプレビュー&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;生成されたHTMLをローカルで確認するために、以下のコマンドを使用してローカルサーバーを起動します。&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;pelican&lt;span class="w"&gt; &lt;/span&gt;--listen
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;これで、ブラウザで &lt;code&gt;http://localhost:8000&lt;/code&gt; にアクセスすると、生成されたブログをプレビューできます。&lt;/p&gt;
+&lt;h3&gt;🎨 &lt;strong&gt;テーマのカスタマイズ&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;ブログの見た目を変えるのも簡単！&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;テーマの入手:&lt;/strong&gt; &lt;a href="https://github.com/getpelican/pelican-themes"&gt;公式テーマギャラリー&lt;/a&gt; から好きなテーマを選びます。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;テーマの配置:&lt;/strong&gt; &lt;code&gt;themes&lt;/code&gt; フォルダ内にクローンします。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="nb"&gt;cd&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;themes
+git&lt;span class="w"&gt; &lt;/span&gt;clone&lt;span class="w"&gt; &lt;/span&gt;https://github.com/22decembre/dev-random3.git
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;pelicanconf.py&lt;/code&gt;&lt;/strong&gt;** にテーマを指定:**&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="n"&gt;THEME&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;themes/dev-random3&amp;#39;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;これだけで、ブログの見た目がガラッと変わります！&lt;/p&gt;
+&lt;p&gt;ただし、所々フランス語だったり文字も見づらかったので&lt;strong&gt;templates&lt;/strong&gt;内にあるCSSやテンプレートのHTMLを少し編集して見た目をカスタマイズしました。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;🌐 &lt;strong&gt;GitHub Pages での公開&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;GitHub Pagesを使うことで、&lt;strong&gt;サーバー不要＆無料&lt;/strong&gt;でブログを公開できます。&lt;/p&gt;
+&lt;h3&gt;🚀 &lt;strong&gt;手順&lt;/strong&gt;&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;GitHubでリポジトリを作成:&lt;/strong&gt; &lt;code&gt;username.github.io&lt;/code&gt; という名前で新規リポジトリを作成します。&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;username&lt;/code&gt;は自分のGitHubアカウント名&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ファイルをプッシュ:&lt;/strong&gt; 生成したHTMLファイルを &lt;code&gt;gh-pages&lt;/code&gt; ブランチにプッシュします。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="nb"&gt;cd&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;output
+git&lt;span class="w"&gt; &lt;/span&gt;init
+git&lt;span class="w"&gt; &lt;/span&gt;remote&lt;span class="w"&gt; &lt;/span&gt;add&lt;span class="w"&gt; &lt;/span&gt;origin&lt;span class="w"&gt; &lt;/span&gt;https://github.com/username/pakhuncho-blog.git
+git&lt;span class="w"&gt; &lt;/span&gt;add&lt;span class="w"&gt; &lt;/span&gt;.
+git&lt;span class="w"&gt; &lt;/span&gt;commit&lt;span class="w"&gt; &lt;/span&gt;-m&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;Initial blog deployment&amp;quot;&lt;/span&gt;
+git&lt;span class="w"&gt; &lt;/span&gt;branch&lt;span class="w"&gt; &lt;/span&gt;-M&lt;span class="w"&gt; &lt;/span&gt;gh-pages
+git&lt;span class="w"&gt; &lt;/span&gt;push&lt;span class="w"&gt; &lt;/span&gt;-u&lt;span class="w"&gt; &lt;/span&gt;origin&lt;span class="w"&gt; &lt;/span&gt;gh-pages
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;GitHub Pagesの設定:&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;GitHubの「Settings」→「Pages」へ移動。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Source&lt;/strong&gt; を &lt;code&gt;gh-pages&lt;/code&gt; ブランチに設定。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;これで、以下のURLでブログが公開されます。&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;https://username.github.io/pakhuncho-blog/
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;hr&gt;
+&lt;h2&gt;🎯 &lt;strong&gt;まとめ&lt;/strong&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Markdownで素早く記事を書く&lt;/li&gt;
+&lt;li&gt;Pelicanで簡単にHTMLを生成&lt;/li&gt;
+&lt;li&gt;GitHub Pagesで無料公開&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;このシンプルな流れで、誰でもすぐに自分のブログを持つことができます！&lt;/p&gt;</content><category term="IT技術"></category><category term="Python"></category><category term="Pelican"></category><category term="GitHub"></category></entry></feed>
