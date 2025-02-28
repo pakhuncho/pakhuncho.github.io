@@ -11,7 +11,7 @@ body {
     color: #101010;
 
     /* font-family: helvetica, arial, freesans, clean, sans-serif; */
-    font-family: "Zen Kurenaido", serif;
+    font-family: "Zen Maru Gothic", serif;
     font-size: 105%;
     line-height: 1.35em;
     letter-spacing: .1em;
@@ -20,7 +20,7 @@ body {
 blockquote {
 	font-size: 1.1em;
 	/* font-family: "Georgia", "FreeSerif", serif; */
-    font-family: "Zen Kurenaido", serif;
+    font-family: "Zen Maru Gothic", serif;
 	/* font-style: italic; */
 	font-style: normal;
 	color: #8b8b8b;
@@ -32,7 +32,7 @@ h4, h5, h6 {
     color: #333333;
 
     /* font-family: "Georgia", "FreeSerif", serif; */
-    font-family: "Zen Kurenaido", serif;
+    font-family: "Zen Maru Gothic", serif;
     /* font-style: italic; */
     font-style: normal;
     font-weight: bolder;
@@ -119,6 +119,7 @@ table {
 table th {
     font-weight: bolder;
     margin: .6em .5em;
+    background-color: #f8f8f8;
 }
 
 table td {
@@ -144,7 +145,7 @@ table tr {
     margin: .7em auto;
 
     /* font-family: Georgia, "Times New Roman", Times, serif; */
-    font-family: "Zen Kurenaido", serif;
+    font-family: "Zen Maru Gothic", serif;
     font-size: 2.8em;
     text-align: center;
 }
@@ -199,7 +200,7 @@ table tr {
     margin: 0;
     padding: .1em;
     /* font-family: Georgia, "Times New Roman", Times, serif; */
-    font-family: "Zen Kurenaido", serif;
+    font-family: "Zen Maru Gothic", serif;
 }
 
 
@@ -252,7 +253,7 @@ table tr {
     padding: .1em;
 
     /* font-family: Georgia, "Times New Roman", Times, serif; */
-    font-family: "Zen Kurenaido", serif;
+    font-family: "Zen Maru Gothic", serif;
 }
 
 
@@ -358,3 +359,18 @@ ul.tagcloud li.tag-3 {
 ul.tagcloud li.tag-4 {
     font-size: 60%;
 }
+
+td code {
+    font-family: monospace;
+    font-size: 1em;
+    line-height: 1.5em;
+    color: #333333;
+    background-color: #f8f8f8;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    padding: 0 0.3em;
+    margin: 0 0.3em;
+    white-space: pre;
+    word-wrap: break-word;
+}
+
