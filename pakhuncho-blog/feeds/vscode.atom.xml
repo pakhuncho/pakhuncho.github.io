@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom"><title>ぱっくんちょブログ - VSCode</title><link href="https://pakhuncho.github.io/pakhuncho-blog/" rel="alternate"></link><link href="https://pakhuncho.github.io/pakhuncho-blog/feeds/vscode.atom.xml" rel="self"></link><id>https://pakhuncho.github.io/pakhuncho-blog/</id><updated>2025-02-28T20:00:00+09:00</updated><entry><title>VS Code ショートカットキー集</title><link href="https://pakhuncho.github.io/pakhuncho-blog/vscode-shortcut-list.html" rel="alternate"></link><published>2025-02-28T00:00:00+09:00</published><updated>2025-02-28T20:00:00+09:00</updated><author><name>pakhuncho</name></author><id>tag:pakhuncho.github.io,2025-02-28:/pakhuncho-blog/vscode-shortcut-list.html</id><summary type="html">&lt;p&gt;VSCodeのショートカットキーを整理しました。&lt;/p&gt;</summary><content type="html">&lt;p&gt;VSCodeのショートカットキーを整理しました。&lt;/p&gt;
 &lt;h2&gt;メニュー&lt;/h2&gt;
-&lt;p&gt;VS Codeの左にあるメニューを選択時に使うショートカットキーです。
-&lt;img alt="" src="../images/vscode_menu.png"&gt;&lt;/p&gt;
+&lt;p&gt;VS Codeの左にあるメニューを選択時に使うショートカットキーです。&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="images/vscode_menu.png"&gt;&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -246,6 +246,24 @@
 &lt;td&gt;小文字に変換&lt;/td&gt;
 &lt;td&gt;&lt;code&gt;Transform to Lowercase&lt;/code&gt;&lt;/td&gt;
 &lt;td&gt;選択中の文字を英語大文字に変換&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: center;"&gt;★&lt;/td&gt;
+&lt;td&gt;Python: インタープリターを選択&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;Python: Select Interpreter&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;アクティブ化するPythonの場所を設定。venv利用時便利&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: center;"&gt;★&lt;/td&gt;
+&lt;td&gt;Javaプロジェクトを作成&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;Java: Create Java Project&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Javaの基本プロジェクトを作成&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: center;"&gt;★&lt;/td&gt;
+&lt;td&gt;Springプロジェクトを作成&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;Spring Initializr: Create a Gradle project&lt;/code&gt;&lt;br&gt;&lt;code&gt;Spring Initializr: Create a Maven project&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;JavaのSpringプロジェクトを作成&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;</content><category term="VSCode"></category><category term="VSCode"></category></entry></feed>
