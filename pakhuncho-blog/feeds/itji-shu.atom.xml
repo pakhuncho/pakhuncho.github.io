@@ -118,7 +118,7 @@
 &lt;li&gt;&lt;strong&gt;「バイナリは 0 と 1、タコは 8、ヘキサは A まで！」&lt;/strong&gt;  &lt;/li&gt;
 &lt;li&gt;または、&lt;strong&gt;「バイ（2）、オク（8）、ヘキサ（16）」&lt;/strong&gt; でリズム良く覚えるのもオススメ！&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;これで進数の世界もバッチリ！ぜひ覚えてみてくださいね！✨&lt;/p&gt;</content><category term="IT技術"></category><category term="IT基礎"></category></entry><entry><title>Pelicanでブログ作成</title><link href="https://pakhuncho.github.io/pakhuncho-blog/making-plican-blog.html" rel="alternate"></link><published>2025-02-03T00:00:00+09:00</published><updated>2025-02-05T18:30:00+09:00</updated><author><name>pakhuncho</name></author><id>tag:pakhuncho.github.io,2025-02-03:/pakhuncho-blog/making-plican-blog.html</id><summary type="html">&lt;p&gt;こんにちは！この記事では、私がどのようにしてこのブログを作成したのか、その背景と技術的なポイントをご紹介します。&lt;/p&gt;</summary><content type="html">&lt;h1&gt;🚀 ブログ作成の経緯&lt;/h1&gt;
+&lt;p&gt;これで進数の世界もバッチリ！ぜひ覚えてみてくださいね！✨&lt;/p&gt;</content><category term="IT技術"></category><category term="it-basics"></category></entry><entry><title>Pelicanでブログ作成</title><link href="https://pakhuncho.github.io/pakhuncho-blog/making-plican-blog.html" rel="alternate"></link><published>2025-02-03T00:00:00+09:00</published><updated>2025-02-05T18:30:00+09:00</updated><author><name>pakhuncho</name></author><id>tag:pakhuncho.github.io,2025-02-03:/pakhuncho-blog/making-plican-blog.html</id><summary type="html">&lt;p&gt;こんにちは！この記事では、私がどのようにしてこのブログを作成したのか、その背景と技術的なポイントをご紹介します。&lt;/p&gt;</summary><content type="html">&lt;h1&gt;🚀 ブログ作成の経緯&lt;/h1&gt;
 &lt;p&gt;こんにちは！この記事では、私がどのようにしてこのブログを作成したのか、その背景と技術的なポイントをご紹介します。&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2&gt;✨ &lt;strong&gt;なぜこの方法を選んだのか？&lt;/strong&gt;&lt;/h2&gt;
@@ -230,4 +230,4 @@ git&lt;span class="w"&gt; &lt;/span&gt;push&lt;span class="w"&gt; &lt;/span&gt;-
 &lt;li&gt;Pelicanで簡単にHTMLを生成&lt;/li&gt;
 &lt;li&gt;GitHub Pagesで無料公開&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;このシンプルな流れで、誰でもすぐに自分のブログを持つことができます！&lt;/p&gt;</content><category term="IT技術"></category><category term="Python"></category><category term="Pelican"></category><category term="GitHub"></category></entry></feed>
+&lt;p&gt;このシンプルな流れで、誰でもすぐに自分のブログを持つことができます！&lt;/p&gt;</content><category term="IT技術"></category><category term="python"></category><category term="pelican"></category><category term="github"></category></entry></feed>
