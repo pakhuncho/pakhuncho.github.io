@@ -360,7 +360,7 @@ ul.tagcloud li.tag-4 {
     font-size: 60%;
 }
 
-td code {
+td code, p code, li code {
     font-family: monospace;
     font-size: 1em;
     line-height: 1.5em;
@@ -373,4 +373,3 @@ td code {
     white-space: pre;
     word-wrap: break-word;
 }
-
