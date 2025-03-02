@@ -92,7 +92,7 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;javap&lt;/code&gt;のみではクラスやメソッドの定義だけが出力され、&lt;code&gt;-c&lt;/code&gt;オプションをつけることで処理のコードが出力されます。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img alt="" src="../images/javap.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="images/javap.png"&gt;&lt;/p&gt;
 &lt;h2&gt;まとめ&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;++x&lt;/code&gt;: インクリメントしてからxを利用&lt;/li&gt;
