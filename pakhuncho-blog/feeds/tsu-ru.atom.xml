@@ -304,4 +304,43 @@
 &lt;td&gt;JavaのSpringプロジェクトを作成。&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
-&lt;/table&gt;</content><category term="ツール"></category><category term="vscode"></category></entry></feed>
+&lt;/table&gt;
+&lt;h2&gt;Java&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;sysout
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;main
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;code&gt;Ctrl + Space&lt;/code&gt;でコード補完選択肢表示&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;code&gt;Ctrl + Space&lt;/code&gt; で変数やメソッドの選択肢（補完候補）が表示されるのは、&lt;strong&gt;スニペット（Snippets）&lt;/strong&gt; ではなく、&lt;strong&gt;IntelliSense（インテリセンス）&lt;/strong&gt; の機能です。&lt;/p&gt;
+&lt;h3&gt;違い&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;機能&lt;/th&gt;
+&lt;th&gt;説明&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;スニペット（Snippets）&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;定型文を補完する機能。&lt;code&gt;sysout&lt;/code&gt; などのキーワードを入力すると &lt;code&gt;System.out.println();&lt;/code&gt; などのコードが自動展開される。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;IntelliSense（インテリセンス）&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;Ctrl + Space&lt;/code&gt; で利用可能な変数やメソッドの候補が表示されるコード補完機能。型推論や文脈に応じた候補を提供する。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3&gt;IntelliSense の主な機能&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;変数やメソッドの補完&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;クラス名の補完&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;インポートの補完&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;型の推論&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Javadoc コメントの表示&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Javaの場合、VSCodeでは &lt;code&gt;Language Support for Java™ by Red Hat&lt;/code&gt; 拡張機能がこの補完機能を提供しており、&lt;code&gt;Ctrl + Space&lt;/code&gt; で候補が表示されます。&lt;/p&gt;
+&lt;p&gt;もし、補完候補がうまく出ない場合は、拡張機能が正しく動作しているか確認すると良いでしょう。&lt;/p&gt;</content><category term="ツール"></category><category term="vscode"></category></entry></feed>
