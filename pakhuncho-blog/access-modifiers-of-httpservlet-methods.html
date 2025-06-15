@@ -67,7 +67,7 @@
       </header>
       <div class="post-content"> 
         <img src="thumbnails/access_modifiers_of_servlet.jpg">
-        <p>新人研修にて、HttpServletのdoGet()などのメソッドがprotectedなのか気になって調べている方がいました。習ったばかりのJavaの知識を整理して結論に導いていて素晴らしいと感じたので共有します。</p>
+        <p>新人研修の中で、HttpServlet の doGet() などのメソッドがなぜ protected なのか疑問に思い、調べている方がいました。習ったばかりの Java のアクセス修飾子の知識を整理しながら自分で結論にたどり着いており、とても素晴らしい考察だったので共有します。</p>
 <h1>なぜServletのdoXXメソッドはprotected？</h1>
 <p>Servletを学んでいると、必ず出てくるのが <code>doGet()</code> や <code>doPost()</code> などの <code>doXX</code> メソッド。このメソッド群はすべて <strong>protected</strong> で宣言されています。なぜ public ではなく protected なのか？アクセス修飾子の観点から整理してみます。</p>
 <h2>Servlet の基本設計</h2>
@@ -213,16 +213,16 @@
 <nav class="widget">
   <h3>Tags</h3>
     <ul class="tagcloud">
-        <li class="tag-[<pelican.contents.Article object at 0x000001F7A4C45840>, <pelican.contents.Article object at 0x000001F7A4C46650>]"><a href="./tag/java.html">java</a></li>
-        <li class="tag-[<pelican.contents.Article object at 0x000001F7A4C45D50>]"><a href="./tag/agile.html">agile</a></li>
-        <li class="tag-[<pelican.contents.Article object at 0x000001F7A4C45D50>]"><a href="./tag/project-management.html">project-management</a></li>
-        <li class="tag-[<pelican.contents.Article object at 0x000001F7A4C51180>]"><a href="./tag/vscode.html">vscode</a></li>
-        <li class="tag-[<pelican.contents.Article object at 0x000001F7A4C52A10>]"><a href="./tag/it-basics.html">it-basics</a></li>
-        <li class="tag-[<pelican.contents.Article object at 0x000001F7A4C51A50>]"><a href="./tag/python.html">python</a></li>
-        <li class="tag-[<pelican.contents.Article object at 0x000001F7A4C51A50>]"><a href="./tag/pelican.html">pelican</a></li>
-        <li class="tag-[<pelican.contents.Article object at 0x000001F7A4C51A50>]"><a href="./tag/github.html">github</a></li>
-        <li class="tag-[<pelican.contents.Article object at 0x000001F7A4B7FF10>]"><a href="./tag/chatgpt.html">chatgpt</a></li>
-        <li class="tag-[<pelican.contents.Article object at 0x000001F7A4C50A60>]"><a href="./tag/it-industry.html">it-industry</a></li>
+        <li class="tag-[<pelican.contents.Article object at 0x0000022B419B7F10>, <pelican.contents.Article object at 0x0000022B419B7340>]"><a href="./tag/java.html">java</a></li>
+        <li class="tag-[<pelican.contents.Article object at 0x0000022B41A0C0D0>]"><a href="./tag/agile.html">agile</a></li>
+        <li class="tag-[<pelican.contents.Article object at 0x0000022B41A0C0D0>]"><a href="./tag/project-management.html">project-management</a></li>
+        <li class="tag-[<pelican.contents.Article object at 0x0000022B41A493F0>]"><a href="./tag/vscode.html">vscode</a></li>
+        <li class="tag-[<pelican.contents.Article object at 0x0000022B41A4BF40>]"><a href="./tag/it-basics.html">it-basics</a></li>
+        <li class="tag-[<pelican.contents.Article object at 0x0000022B406A3850>]"><a href="./tag/python.html">python</a></li>
+        <li class="tag-[<pelican.contents.Article object at 0x0000022B406A3850>]"><a href="./tag/pelican.html">pelican</a></li>
+        <li class="tag-[<pelican.contents.Article object at 0x0000022B406A3850>]"><a href="./tag/github.html">github</a></li>
+        <li class="tag-[<pelican.contents.Article object at 0x0000022B419B7BB0>]"><a href="./tag/chatgpt.html">chatgpt</a></li>
+        <li class="tag-[<pelican.contents.Article object at 0x0000022B40663EE0>]"><a href="./tag/it-industry.html">it-industry</a></li>
     </ul>
 </nav>       
        <!--</nav>-->
