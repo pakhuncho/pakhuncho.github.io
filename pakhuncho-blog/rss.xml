@@ -1,54 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"><channel>
   <title>pakhuncho.dev.log</title>
-  <link>https://example.com/</link>
+  <link>https://pakhuncho.github.io/pakhuncho-blog/</link>
   <description>AIエージェント開発とインフラの実験ノート。たまにガジェットも。</description>
   <item>
     <title>Claude Agent SDKでマルチエージェントパイプラインを構築する</title>
-    <link>https://example.com/posts/claude-agent-sdk-multi-agent-pipeline/</link>
-    <guid>https://example.com/posts/claude-agent-sdk-multi-agent-pipeline/</guid>
+    <link>https://pakhuncho.github.io/pakhuncho-blog/posts/claude-agent-sdk-multi-agent-pipeline/</link>
+    <guid>https://pakhuncho.github.io/pakhuncho-blog/posts/claude-agent-sdk-multi-agent-pipeline/</guid>
     <pubDate>Thu, 20 Aug 2026 00:00:00 GMT</pubDate>
     <description>複数のサブエージェントを協調させて複雑なタスクを分解・実行する設計パターンをまとめた。</description>
   </item>
   <item>
     <title>自宅Kubernetesクラスタでホームラボを構築した話</title>
-    <link>https://example.com/posts/homelab-k3s-cluster-build/</link>
-    <guid>https://example.com/posts/homelab-k3s-cluster-build/</guid>
+    <link>https://pakhuncho.github.io/pakhuncho-blog/posts/homelab-k3s-cluster-build/</link>
+    <guid>https://pakhuncho.github.io/pakhuncho-blog/posts/homelab-k3s-cluster-build/</guid>
     <pubDate>Wed, 12 Aug 2026 00:00:00 GMT</pubDate>
     <description>ミニPC3台でk3sクラスタを組み、個人開発環境をセルフホストするまでの記録。</description>
   </item>
   <item>
     <title>M4 MacBook Proを1ヶ月使ったレビュー</title>
-    <link>https://example.com/posts/m4-macbook-pro-one-month-review/</link>
-    <guid>https://example.com/posts/m4-macbook-pro-one-month-review/</guid>
+    <link>https://pakhuncho.github.io/pakhuncho-blog/posts/m4-macbook-pro-one-month-review/</link>
+    <guid>https://pakhuncho.github.io/pakhuncho-blog/posts/m4-macbook-pro-one-month-review/</guid>
     <pubDate>Sun, 02 Aug 2026 00:00:00 GMT</pubDate>
     <description>開発機として毎日触った実感ベース。バッテリーとローカルLLM実行速度が中心。</description>
   </item>
   <item>
     <title>RAGのチャンク戦略を4パターン比較する</title>
-    <link>https://example.com/posts/rag-chunking-strategy-comparison/</link>
-    <guid>https://example.com/posts/rag-chunking-strategy-comparison/</guid>
+    <link>https://pakhuncho.github.io/pakhuncho-blog/posts/rag-chunking-strategy-comparison/</link>
+    <guid>https://pakhuncho.github.io/pakhuncho-blog/posts/rag-chunking-strategy-comparison/</guid>
     <pubDate>Fri, 24 Jul 2026 00:00:00 GMT</pubDate>
     <description>固定長・意味単位・階層型・スライディングウィンドウの4手法を実データで比較した。</description>
   </item>
   <item>
     <title>炎上プロジェクトにしないための行動 10選</title>
-    <link>https://example.com/posts/actions-to-prevent-project-burnout/</link>
-    <guid>https://example.com/posts/actions-to-prevent-project-burnout/</guid>
+    <link>https://pakhuncho.github.io/pakhuncho-blog/posts/actions-to-prevent-project-burnout/</link>
+    <guid>https://pakhuncho.github.io/pakhuncho-blog/posts/actions-to-prevent-project-burnout/</guid>
     <pubDate>Mon, 02 Jun 2025 00:00:00 GMT</pubDate>
     <description>炎上プロジェクトにしたくない！</description>
   </item>
   <item>
     <title>VS Code ショートカットキー集</title>
-    <link>https://example.com/posts/vscode-shortcut-list/</link>
-    <guid>https://example.com/posts/vscode-shortcut-list/</guid>
+    <link>https://pakhuncho.github.io/pakhuncho-blog/posts/vscode-shortcut-list/</link>
+    <guid>https://pakhuncho.github.io/pakhuncho-blog/posts/vscode-shortcut-list/</guid>
     <pubDate>Fri, 28 Feb 2025 00:00:00 GMT</pubDate>
     <description>VSCodeのショートカットキーを整理しました。</description>
   </item>
   <item>
     <title>フリーランスは本当に収入が倍になるのか？</title>
-    <link>https://example.com/posts/freelancing-really-double-the-income/</link>
-    <guid>https://example.com/posts/freelancing-really-double-the-income/</guid>
+    <link>https://pakhuncho.github.io/pakhuncho-blog/posts/freelancing-really-double-the-income/</link>
+    <guid>https://pakhuncho.github.io/pakhuncho-blog/posts/freelancing-really-double-the-income/</guid>
     <pubDate>Sat, 04 Mar 2023 00:00:00 GMT</pubDate>
     <description>エンジニアの世界に飛び込む理由は人それぞれ。でも最近、「高収入が夢だから」という人が増えてきた気がします。むしろ、技術が大好き！という理由でこの業界に入る人は少数派になってきたように感じます。</description>
   </item>

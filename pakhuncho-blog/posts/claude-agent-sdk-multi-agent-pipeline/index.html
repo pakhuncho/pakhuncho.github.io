@@ -8,7 +8,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap">
-<link rel="stylesheet" href="/assets/css/style.css">
+<link rel="stylesheet" href="/pakhuncho-blog/assets/css/style.css">
 </head>
 <body class="dl-term">
 <div class="dl-scanlines" aria-hidden="true"></div>
@@ -17,15 +17,15 @@
 <header class="dl-header">
   <div class="dl-header-inner">
     <div>
-      <a href="/" class="dl-logo dl-glow">pakhuncho.dev.log_</a>
+      <a href="/pakhuncho-blog/" class="dl-logo dl-glow">pakhuncho.dev.log_</a>
       <div class="dl-tagline-line">guest@devlog:~$ cat about.txt</div>
       <div class="dl-tagline"># AIエージェント開発とインフラの実験ノート。たまにガジェットも。</div>
     </div>
     <nav class="dl-nav">
-      <a href="/" class="dl-nav-active">[ posts ]</a>
-      <a href="/tags/" class="dl-navlink">[ tags ]</a>
-      <a href="/about/" class="dl-navlink">[ about ]</a>
-      <a href="/rss.xml" class="dl-navlink">[ rss ]</a>
+      <a href="/pakhuncho-blog/" class="dl-nav-active">[ posts ]</a>
+      <a href="/pakhuncho-blog/tags/" class="dl-navlink">[ tags ]</a>
+      <a href="/pakhuncho-blog/about/" class="dl-navlink">[ about ]</a>
+      <a href="/pakhuncho-blog/rss.xml" class="dl-navlink">[ rss ]</a>
     </nav>
   </div>
 </header>
@@ -71,19 +71,19 @@ client = Anthropic()
     <span class="hljs-keyword">return</span> run_agent(<span class="hljs-string">&quot;reviewer&quot;</span>, code)</code></pre></div>
 <p><code>SYSTEM_PROMPTS</code> には role ごとの system prompt を辞書で持たせている。researcher は「実装方針を箇条書きでまとめる」、implementer は「researcher の方針をもとにコードを書く」、reviewer は「実装コードの問題点を指摘する」という役割に絞ることで、それぞれの system prompt を数行に収められた。</p>
 <h2>orchestrator と3つのサブエージェントの関係</h2>
-<p><figure class="dl-figure"><img src="/assets/img/illus-terminal.png" alt="orchestrator と3つのサブエージェントの関係" loading="lazy"><figcaption># fig. orchestrator と3つのサブエージェントの関係</figcaption></figure>
+<p><figure class="dl-figure"><img src="/pakhuncho-blog/assets/img/illus-terminal.png" alt="orchestrator と3つのサブエージェントの関係" loading="lazy"><figcaption># fig. orchestrator と3つのサブエージェントの関係</figcaption></figure>
 </p>
 <p>orchestrator は各エージェントの出力をそのまま次段に渡すだけの単純な実装だが、役割を分離したことでプロンプトが短くなり、途中経過をログとして人間が読みやすくなる利点がある。</p>
 <h2>次にやること</h2>
 <p>現状は researcher → implementer → reviewer の一方向パイプラインで、reviewer が問題を指摘しても implementer に差し戻す仕組みがない。次回はここに検証エージェントの自己修正ループ(reviewer の指摘を implementer に戻して再実装させる)を足していく。あわせて、各エージェントの呼び出しコストをログに残し、役割ごとにどのモデルを使うのが費用対効果として妥当かも検証したい。</p>
 <h2>動画埋め込みテスト</h2>
 <p>記事内に動画を埋め込めるかの動作確認用。内容は本記事とは無関係のサンプル動画です。</p>
-<p><figure class="dl-figure"><video src="/assets/video/132_driverless_commute_00001_.mp4" controls playsinline preload="metadata"></video><figcaption># fig. 動画埋め込みのテスト(サンプル素材)</figcaption></figure>
+<p><figure class="dl-figure"><video src="/pakhuncho-blog/assets/video/132_driverless_commute_00001_.mp4" controls playsinline preload="metadata"></video><figcaption># fig. 動画埋め込みのテスト(サンプル素材)</figcaption></figure>
 </p>
 
 </article>
 <div class="dl-tags dl-article-tags"><span class="dl-tag">AI</span><span class="dl-tag">Claude</span></div>
-<div class="dl-back"><a class="dl-link" href="/">&larr; guest@devlog:~$ cd ../posts</a></div>
+<div class="dl-back"><a class="dl-link" href="/pakhuncho-blog/">&larr; guest@devlog:~$ cd ../posts</a></div>
 </main>
 
 <footer class="dl-footer">
