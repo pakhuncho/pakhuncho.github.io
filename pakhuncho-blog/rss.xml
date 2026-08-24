@@ -4,34 +4,6 @@
   <link>https://pakhuncho.github.io/pakhuncho-blog/</link>
   <description>AIエージェント開発とインフラの実験ノート。たまにガジェットも。</description>
   <item>
-    <title>Claude Agent SDKでマルチエージェントパイプラインを構築する</title>
-    <link>https://pakhuncho.github.io/pakhuncho-blog/posts/claude-agent-sdk-multi-agent-pipeline/</link>
-    <guid>https://pakhuncho.github.io/pakhuncho-blog/posts/claude-agent-sdk-multi-agent-pipeline/</guid>
-    <pubDate>Thu, 20 Aug 2026 00:00:00 GMT</pubDate>
-    <description>複数のサブエージェントを協調させて複雑なタスクを分解・実行する設計パターンをまとめた。</description>
-  </item>
-  <item>
-    <title>自宅Kubernetesクラスタでホームラボを構築した話</title>
-    <link>https://pakhuncho.github.io/pakhuncho-blog/posts/homelab-k3s-cluster-build/</link>
-    <guid>https://pakhuncho.github.io/pakhuncho-blog/posts/homelab-k3s-cluster-build/</guid>
-    <pubDate>Wed, 12 Aug 2026 00:00:00 GMT</pubDate>
-    <description>ミニPC3台でk3sクラスタを組み、個人開発環境をセルフホストするまでの記録。</description>
-  </item>
-  <item>
-    <title>M4 MacBook Proを1ヶ月使ったレビュー</title>
-    <link>https://pakhuncho.github.io/pakhuncho-blog/posts/m4-macbook-pro-one-month-review/</link>
-    <guid>https://pakhuncho.github.io/pakhuncho-blog/posts/m4-macbook-pro-one-month-review/</guid>
-    <pubDate>Sun, 02 Aug 2026 00:00:00 GMT</pubDate>
-    <description>開発機として毎日触った実感ベース。バッテリーとローカルLLM実行速度が中心。</description>
-  </item>
-  <item>
-    <title>RAGのチャンク戦略を4パターン比較する</title>
-    <link>https://pakhuncho.github.io/pakhuncho-blog/posts/rag-chunking-strategy-comparison/</link>
-    <guid>https://pakhuncho.github.io/pakhuncho-blog/posts/rag-chunking-strategy-comparison/</guid>
-    <pubDate>Fri, 24 Jul 2026 00:00:00 GMT</pubDate>
-    <description>固定長・意味単位・階層型・スライディングウィンドウの4手法を実データで比較した。</description>
-  </item>
-  <item>
     <title>炎上プロジェクトにしないための行動 10選</title>
     <link>https://pakhuncho.github.io/pakhuncho-blog/posts/actions-to-prevent-project-burnout/</link>
     <guid>https://pakhuncho.github.io/pakhuncho-blog/posts/actions-to-prevent-project-burnout/</guid>
