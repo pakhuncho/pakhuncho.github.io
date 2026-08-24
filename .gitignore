@@ -1,0 +1,5 @@
+/start.bat
+/serve.mjs
+blog-src/node_modules/
+.claude
+blog-src

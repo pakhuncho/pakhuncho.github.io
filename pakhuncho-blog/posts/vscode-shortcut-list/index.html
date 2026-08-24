@@ -1,0 +1,378 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>VS Code ショートカットキー集 - pakhuncho.dev.log</title>
+<meta name="description" content="VSCodeのショートカットキーを整理しました。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap">
+<link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body class="dl-term">
+<div class="dl-scanlines" aria-hidden="true"></div>
+<div class="dl-vignette" aria-hidden="true"></div>
+
+<header class="dl-header">
+  <div class="dl-header-inner">
+    <div>
+      <a href="/" class="dl-logo dl-glow">pakhuncho.dev.log_</a>
+      <div class="dl-tagline-line">guest@devlog:~$ cat about.txt</div>
+      <div class="dl-tagline"># AIエージェント開発とインフラの実験ノート。たまにガジェットも。</div>
+    </div>
+    <nav class="dl-nav">
+      <a href="/" class="dl-nav-active">[ posts ]</a>
+      <a href="/tags/" class="dl-navlink">[ tags ]</a>
+      <a href="/about/" class="dl-navlink">[ about ]</a>
+      <a href="/rss.xml" class="dl-navlink">[ rss ]</a>
+    </nav>
+  </div>
+</header>
+
+<main class="dl-main">
+
+<div class="dl-breadcrumb">guest@devlog:~$ cat posts/vscode-shortcut-list.md</div>
+<h1 class="dl-article-title dl-glow">VS Code ショートカットキー集</h1>
+<div class="dl-article-meta">
+  <span># date: 2025-02-28</span>
+  <span># read: 7 min</span>
+  <span># tags: [vscode] [ツール]</span>
+</div>
+<article class="dl-article-body">
+<p>VSCodeのショートカットキーを整理しました。</p>
+<h2>メニュー</h2>
+<p>VS Codeの左にあるメニューを選択時に使うショートカットキーです。</p>
+<p><figure class="dl-figure"><img src="/assets/img/vscode_menu.png" alt="" loading="lazy"></figure>
+</p>
+<table>
+<thead>
+<tr>
+<th align="center"><div style="white-space: nowrap;">よく使う</div></th>
+<th>操作内容</th>
+<th><div style="white-space: nowrap;">ショートカットキー</div></th>
+<th>備考</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center"></td>
+<td>エクスプローラーを開く</td>
+<td><code>Ctrl + Shift + E</code></td>
+<td></td>
+</tr>
+<tr>
+<td align="center">★</td>
+<td>検索を開く</td>
+<td><code>Ctrl + Shift + F</code></td>
+<td></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td>ソース管理を開く</td>
+<td><code>Ctrl + Shift + G</code> → <code>G</code></td>
+<td></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td>実行とデバッグを開く</td>
+<td><code>Ctrl + Shift + D</code></td>
+<td></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td>拡張機能を開く</td>
+<td><code>Ctrl + Shift + X</code></td>
+<td></td>
+</tr>
+</tbody></table>
+<h2>フォルダを開く</h2>
+<p>VS Codeのフォルダやワークスペースを開くときに使うショートカットキーです。</p>
+<table>
+<thead>
+<tr>
+<th align="center"><div style="white-space: nowrap;">よく使う</div></th>
+<th>操作内容</th>
+<th><div style="white-space: nowrap;">ショートカットキー</div></th>
+<th>備考</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">★</td>
+<td>最近開いた項目を選択</td>
+<td><code>Ctrl + R</code></td>
+<td></td>
+</tr>
+<tr>
+<td align="center">★</td>
+<td>フォルダを閉じる</td>
+<td><code>Ctrl + K</code> → <code>F</code></td>
+<td></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td>フォルダを開く</td>
+<td><code>Ctrl + K</code> → <code>Ctrl + O</code></td>
+<td></td>
+</tr>
+</tbody></table>
+<h2>探す</h2>
+<p>ファイルなどを探すときに使うショートカットキーです。</p>
+<table>
+<thead>
+<tr>
+<th align="center"><div style="white-space: nowrap;">よく使う</div></th>
+<th>操作内容</th>
+<th><div style="white-space: nowrap;">ショートカットキー</div></th>
+<th>備考</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">★</td>
+<td>ファイルを検索</td>
+<td><code>Ctrl + P</code></td>
+<td>ファイル名でワークスペース内のファイルを検索し開くことができる。</td>
+</tr>
+<tr>
+<td align="center">★</td>
+<td>ファイルを検索</td>
+<td><code>Ctrl + E</code></td>
+<td><code>Ctrl + P</code>とほぼ同じだが最近開いたファイルがリストの上位に表示される。</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td>シンボルを検索</td>
+<td><code>Ctrl + T</code></td>
+<td>プロジェクト全体のシンボル（関数・変数・クラスなど）を検索できる。Markdownなら見出しを検索できる。</td>
+</tr>
+<tr>
+<td align="center">★</td>
+<td>検索を開く</td>
+<td><code>Ctrl + Shift + F</code></td>
+<td>（「メニュー」のショートカットキー再掲載）</td>
+</tr>
+</tbody></table>
+<h2>編集</h2>
+<p>エディターの内容を編集するときに使うショートカットキーです。</p>
+<table>
+<thead>
+<tr>
+<th align="center"><div style="white-space: nowrap;">よく使う</div></th>
+<th>操作内容</th>
+<th><div style="white-space: nowrap;">ショートカットキー</div></th>
+<th>備考</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">★</td>
+<td>該当行と同じ行をつくる</td>
+<td><code>Alt + Shift + ↑</code> <br> <code>Alt + Shift + ↓</code></td>
+<td>↑・↓どちらを押しても下にコピーされる。複数行まるごとコピーできる。</td>
+</tr>
+<tr>
+<td align="center">★</td>
+<td>行削除</td>
+<td><code>Ctrl + Shift + K</code></td>
+<td></td>
+</tr>
+<tr>
+<td align="center">★</td>
+<td>行を上下にずらす</td>
+<td><code>Alt + ↑</code> <br> <code>Alt + ↓</code></td>
+<td></td>
+</tr>
+<tr>
+<td align="center">★</td>
+<td>選択行をコメント</td>
+<td><code>Ctrl + /</code></td>
+<td>プログラムの種類に合わせたコメントにしてくれるのが嬉しい。<br>（pythonなら#、javaなら//）<br>コメント上に行うとコメントが解除される。</td>
+</tr>
+</tbody></table>
+<h2>選択</h2>
+<p>エディターの内容を選択するときに使うショートカットキーです。</p>
+<table>
+<thead>
+<tr>
+<th align="center"><div style="white-space: nowrap;">よく使う</div></th>
+<th>操作内容</th>
+<th><div style="white-space: nowrap;">ショートカットキー</div></th>
+<th>備考</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">★</td>
+<td>同じ単語を選択</td>
+<td><code>Ctrl + D</code></td>
+<td></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td>単語ごとに選択</td>
+<td><code>Ctrl + Shift + ←</code> <br> <code>Ctrl + Shift + →</code></td>
+<td></td>
+</tr>
+<tr>
+<td align="center">★</td>
+<td>行の先頭まで選択</td>
+<td><code>Shift + HOME</code></td>
+<td></td>
+</tr>
+<tr>
+<td align="center">★</td>
+<td>行の末尾まで選択</td>
+<td><code>Shift + END</code></td>
+<td></td>
+</tr>
+<tr>
+<td align="center">★</td>
+<td>矩形選択</td>
+<td><code>Ctrl + Shift + Alt + ↑</code> <br> <code>Ctrl + Shift + Alt + ↓</code></td>
+<td>カーソルと同じ位置で複数行選択できる。</td>
+</tr>
+</tbody></table>
+<h2>フォーカス</h2>
+<p>VS Codeのビューのフォーカスを移動するときに使うショートカットキーです。</p>
+<table>
+<thead>
+<tr>
+<th align="center"><div style="white-space: nowrap;">よく使う</div></th>
+<th>操作内容</th>
+<th><div style="white-space: nowrap;">ショートカットキー</div></th>
+<th>備考</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">★</td>
+<td>ターミナルにフォーカス</td>
+<td><code>Ctrl + @</code></td>
+<td></td>
+</tr>
+<tr>
+<td align="center">★</td>
+<td>エディタにフォーカス</td>
+<td><code>Ctrl + 1</code></td>
+<td></td>
+</tr>
+</tbody></table>
+<h2>設定</h2>
+<p>設定関連を開くときに使うショートカットキーです。</p>
+<table>
+<thead>
+<tr>
+<th align="center"><div style="white-space: nowrap;">よく使う</div></th>
+<th>操作内容</th>
+<th><div style="white-space: nowrap;">ショートカットキー</div></th>
+<th>備考</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">★</td>
+<td>設定を開く</td>
+<td><code>Ctrl + ,</code></td>
+<td></td>
+</tr>
+<tr>
+<td align="center">★</td>
+<td>コマンドパレットを開く</td>
+<td><code>Ctrl + Shift + P</code></td>
+<td>表示 &gt; コマンドパレット</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td>キーボード ショートカットを開く</td>
+<td><code>Ctrl + K</code> → <code>Ctrl + S</code></td>
+<td></td>
+</tr>
+</tbody></table>
+<h2>コマンドパレットでよく使うもの</h2>
+<p><code>Ctrl + Shift + P</code>でコマンドパレットを開いてから使ってください。</p>
+<table>
+<thead>
+<tr>
+<th align="center"><div style="white-space: nowrap;">よく使う</div></th>
+<th>操作内容</th>
+<th>コマンド</th>
+<th>備考</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">★</td>
+<td>ウィンドウを再読み込み</td>
+<td><code>Developer: Reload Window</code></td>
+<td>VSCodeの設定を変更時など、設定の読み込み時にも便利。</td>
+</tr>
+<tr>
+<td align="center">★</td>
+<td>大文字に変換</td>
+<td><code>Transform to Uppercase</code></td>
+<td>選択中の文字を英語大文字に変換。</td>
+</tr>
+<tr>
+<td align="center">★</td>
+<td>小文字に変換</td>
+<td><code>Transform to Lowercase</code></td>
+<td>選択中の文字を英語大文字に変換。</td>
+</tr>
+<tr>
+<td align="center">★</td>
+<td>Pythonのインタープリターを選択</td>
+<td><code>Python: Select Interpreter</code></td>
+<td>アクティブ化するPythonの場所を設定。venv利用時便利。</td>
+</tr>
+<tr>
+<td align="center">★</td>
+<td>Javaプロジェクトを作成</td>
+<td><code>Java: Create Java Project</code></td>
+<td>Javaの基本プロジェクトを作成。</td>
+</tr>
+<tr>
+<td align="center">★</td>
+<td>Springプロジェクトを作成</td>
+<td><code>Spring Initializr: Create a Gradle project</code><br><code>Spring Initializr: Create a Maven project</code></td>
+<td>JavaのSpringプロジェクトを作成。</td>
+</tr>
+</tbody></table>
+<h2>Java</h2>
+<div class="dl-code"><div class="dl-code-bar">text</div><pre><code class="hljs">sysout</code></pre></div>
+<div class="dl-code"><div class="dl-code-bar">text</div><pre><code class="hljs">main</code></pre></div>
+<p><code>Ctrl + Space</code>でコード補完選択肢表示</p>
+<hr>
+<p><code>Ctrl + Space</code> で変数やメソッドの選択肢（補完候補）が表示されるのは、<strong>スニペット（Snippets）</strong> ではなく、<strong>IntelliSense（インテリセンス）</strong> の機能です。</p>
+<h3>違い</h3>
+<table>
+<thead>
+<tr>
+<th>機能</th>
+<th>説明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>スニペット（Snippets）</strong></td>
+<td>定型文を補完する機能。<code>sysout</code> などのキーワードを入力すると <code>System.out.println();</code> などのコードが自動展開される。</td>
+</tr>
+<tr>
+<td><strong>IntelliSense（インテリセンス）</strong></td>
+<td><code>Ctrl + Space</code> で利用可能な変数やメソッドの候補が表示されるコード補完機能。型推論や文脈に応じた候補を提供する。</td>
+</tr>
+</tbody></table>
+<h3>IntelliSense の主な機能</h3>
+<ul>
+<li><strong>変数やメソッドの補完</strong></li>
+<li><strong>クラス名の補完</strong></li>
+<li><strong>インポートの補完</strong></li>
+<li><strong>型の推論</strong></li>
+<li><strong>Javadoc コメントの表示</strong></li>
+</ul>
+<p>Javaの場合、VSCodeでは <code>Language Support for Java™ by Red Hat</code> 拡張機能がこの補完機能を提供しており、<code>Ctrl + Space</code> で候補が表示されます。</p>
+<p>もし、補完候補がうまく出ない場合は、拡張機能が正しく動作しているか確認すると良いでしょう。</p>
+
+</article>
+<div class="dl-tags dl-article-tags"><span class="dl-tag">vscode</span><span class="dl-tag">ツール</span></div>
+<div class="dl-back"><a class="dl-link" href="/">&larr; guest@devlog:~$ cd ../posts</a></div>
+</main>
+
+<footer class="dl-footer">
+  <div class="dl-footer-inner">guest@devlog:~$ <span class="dl-cursor"></span></div>
+</footer>
+
+</body>
+</html>
