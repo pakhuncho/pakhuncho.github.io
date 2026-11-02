@@ -150,3 +150,10 @@ a.dl-link:hover { color: #baffcf; border-bottom-color: #baffcf; }
   .dl-card-body { padding: 16px; }
   .dl-code pre { padding: 16px; }
 }
+
+/* 移転のお知らせ（front matter の movedTo があるとき） */
+.dl-moved {
+  font-size: 15px; line-height: 1.8; color: #ffe08a; max-width: 760px;
+  border: 1px solid rgba(255,224,138,0.6); border-radius: 6px; padding: 14px 18px; margin: 0 0 28px;
+}
+.dl-moved .dl-link { word-break: break-all; }
